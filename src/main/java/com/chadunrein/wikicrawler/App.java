@@ -55,9 +55,5 @@ public final class App {
         for (Map.Entry<Integer, Long> entry : top4Counts.entrySet()) {
             System.out.printf("%d, %c, %d\n", i++, entry.getKey(), entry.getValue());
         }
-        System.out.println("\nall counts");
-        for (Map.Entry<Integer, Long> entry : counts.entrySet()) {
-            System.out.printf("%d, %c, %d\n", i++, entry.getKey(), entry.getValue());
-        }
     }
 }
